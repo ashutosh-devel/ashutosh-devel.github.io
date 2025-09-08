@@ -30,7 +30,7 @@
   <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="og:image:alt" content="Deep Unsupervised Despeckling via Unbiased Risk Estimation">
   <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
   <meta property="article:author" content="Ashutosh Gupta">
   <meta property="article:section" content="Research">
@@ -44,15 +44,15 @@
   <!-- TODO: Replace with first author's Twitter handle -->
   <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
   <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
+  <meta name="twitter:title" content="Deep Unsupervised Despeckling via Unbiased Risk Estimation">
   <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <meta name="twitter:description" content="DeepMURE: A Risk estimation-based framework for unsupervised training of despeckling methods">
   <!-- TODO: Same as social preview image above -->
   <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:image:alt" content="Deep Unsupervised Despeckling via Unbiased Risk Estimation - Research Preview">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
+  <meta name="citation_title" content="Deep Unsupervised Despeckling via Unbiased Risk Estimation">
   <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
   <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
   <meta name="citation_publication_date" content="2024">
@@ -74,7 +74,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>Deep Unsupervised Despeckling via Unbiased Risk Estimation - Ashutosh Gupta, et al.</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -114,8 +114,8 @@
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "Deep Unsupervised Despeckling via Unbiased Risk Estimation",
+    "description": "DeepMURE: A Risk estimation-based framework for unsupervised training of despeckling methods",
     "author": [
       {
         "@type": "Person",
@@ -134,10 +134,10 @@
         }
       }
     ],
-    "datePublished": "2024-01-01",
+    "datePublished": "2025-08-30",
     "publisher": {
       "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
+      "name": "ICIP"
     },
     "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
     "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
@@ -290,6 +290,29 @@
 </section>
 <!-- End paper abstract -->
 
+<!-- Methodology explanation-->
+ <section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">DeepMURE v/s MURE v/s MSE optimization</h2>
+          <p>
+              DeepMURE reformulates the Multiplicative Unbiased Risk Estimator and pairs it with a fast Monte-Carlo scheme that reliably approximates the revised cost, allowing deep networks to be trained in unsupervised fashion on vast, noisy SAR-image datasets.
+          </p>
+          <p>
+          <img src="static/images/diagram_0.png" alt="MSE-Loss" class="blend-img-background center-image" style="max-width: 60%; height: auto;" loading="lazy" />
+          <img src="static/images/diagram_1mure.png" alt="MURE" class="blend-img-background center-image" style="max-width: 60%; height: auto;" loading="lazy" />
+          <img src="static/images/diagram_1deepmure.png" alt="DeepMURE" class="blend-img-background center-image" style="max-width: 60%; height: auto;" loading="lazy" />
+        </p>
+               
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End methodology explanation-->
 
 <!-- Image carousel -->
 <section class="hero is-small">
@@ -298,33 +321,27 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
+        <img src="static/images/website_1.png" alt="Oracle v/s DeepMURE" loading="lazy"/>
         <!-- TODO: Replace with description of this result -->
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Performance of the proposed DeepMURE on real SAR images w.r.t the Oracle performance.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
+        <img src="static/images/website_2.png" alt="UC-Merced" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-          Second image description.
+          Visual comparison of despeckling results on UC-Merced dataset sample.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
+        <img src="static/images/website_3.png" alt="Sentinel-1" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
-         Third image description.
+         Visual comparison of despeckling results on Sentinel-1 dataset sample.
        </h2>
      </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
+     
   </div>
 </div>
 </div>
