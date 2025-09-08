@@ -263,8 +263,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Gupta]
+  first_name: [Ashutosh]
 
   style: apa
   locale: en
@@ -634,10 +634,10 @@ jsonresume:
   - education
   - publications
   - projects
-  - volunteer
-  - awards
-  - certificates
+  # - volunteer
+  # - awards
+  # - certificates
   - skills
   - languages
   - interests
-  - references
+  # - references
